@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>KeepAlive</key>
+	<true/>
+	<key>Label</key>
+	<string>homebrew.mxcl.wake-on-bind</string>
+	<key>ProgramArguments</key>
+	<array>
+		<string>/usr/bin/dns-sd</string>
+		<string>-R</string>
+		<string>bind-dns-server</string>
+		<string>_domain._tcp</string>
+		<string>local.</string>
+		<string>53</string>
+	</array>
+	<key>RunAtLoad</key>
+	<true/>
+	<key>StandardErrorPath</key>
+	<string>/tmp/wake-on-bind.stderr</string>
+	<key>StandardOutPath</key>
+	<string>/tmp/wake-on-bind.stdout</string>
+</dict>
+</plist>
+
