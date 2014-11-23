@@ -5,22 +5,22 @@
 	<key>KeepAlive</key>
 	<true/>
 	<key>Label</key>
-	<string>homebrew.mxcl.wake-on-apache</string>
+	<string>homebrew.mxcl.wake-on-webdav-tcp</string>
 	<key>ProgramArguments</key>
 	<array>
 		<string>/usr/bin/dns-sd</string>
 		<string>-R</string>
-		<string>apache-web-server</string>
-		<string>_http._tcp</string>
+		<string>webdav-server</string>
+		<string>_domain._tcp</string>
 		<string>local.</string>
-		<string>80</string>
+		<string>53</string>
 	</array>
 	<key>RunAtLoad</key>
 	<true/>
 	<key>StandardErrorPath</key>
-	<string>/tmp/homebrew.mxcl.wake-on-apache.stderr</string>
+	<string>/tmp/homebrew.mxcl.wake-on-webdav-tcp.stderr</string>
 	<key>StandardOutPath</key>
-	<string>/tmp/homebrew.mxcl.wake-on-apache.stdout</string>
+	<string>/tmp/homebrew.mxcl.wake-on-webdav-tcp.stdout</string>
 </dict>
 </plist>
 
