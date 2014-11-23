@@ -5,22 +5,22 @@
 	<key>KeepAlive</key>
 	<true/>
 	<key>Label</key>
-	<string>homebrew.mxcl.wake-on-bind</string>
+	<string>homebrew.mxcl.wake-on-bind-udp</string>
 	<key>ProgramArguments</key>
 	<array>
 		<string>/usr/bin/dns-sd</string>
 		<string>-R</string>
-		<string>bind-name-server</string>
-		<string>_domain._tcp</string>
+		<string>bind-udp-name-server</string>
+		<string>_domain._udp</string>
 		<string>local.</string>
 		<string>53</string>
 	</array>
 	<key>RunAtLoad</key>
 	<true/>
 	<key>StandardErrorPath</key>
-	<string>/tmp/homebrew.mxcl.wake-on-bind.stderr</string>
+	<string>/tmp/homebrew.mxcl.wake-on-bind-udp.stderr</string>
 	<key>StandardOutPath</key>
-	<string>/tmp/homebrew.mxcl.wake-on-bind.stdout</string>
+	<string>/tmp/homebrew.mxcl.wake-on-bind-udp.stdout</string>
 </dict>
 </plist>
 
