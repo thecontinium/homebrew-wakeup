@@ -11,9 +11,9 @@
 		<string>/usr/bin/dns-sd</string>
 		<string>-R</string>
 		<string>webdav-server</string>
-		<string>_domain._tcp</string>
+		<string>_webdav._tcp</string>
 		<string>local.</string>
-		<string>53</string>
+		<string>80</string>
 	</array>
 	<key>RunAtLoad</key>
 	<true/>
