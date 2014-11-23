@@ -11,7 +11,7 @@
 		<string>/usr/bin/dns-sd</string>
 		<string>-R</string>
 		<string>apache-web-server</string>
-		<string>_domain._tcp</string>
+		<string>_http._tcp</string>
 		<string>local.</string>
 		<string>80</string>
 	</array>
