@@ -5,22 +5,22 @@
 	<key>KeepAlive</key>
 	<true/>
 	<key>Label</key>
-	<string>homebrew.mxcl.wake-on-bind</string>
+	<string>homebrew.mxcl.wake-on-apache</string>
 	<key>ProgramArguments</key>
 	<array>
 		<string>/usr/bin/dns-sd</string>
 		<string>-R</string>
-		<string>bind-dns-server</string>
+		<string>apache-web-server</string>
 		<string>_domain._tcp</string>
 		<string>local.</string>
-		<string>53</string>
+		<string>80</string>
 	</array>
 	<key>RunAtLoad</key>
 	<true/>
 	<key>StandardErrorPath</key>
-	<string>/tmp/wake-on-bind.stderr</string>
+	<string>/tmp/homebrew.mxcl.wake-on-apache.stderr</string>
 	<key>StandardOutPath</key>
-	<string>/tmp/wake-on-bind.stdout</string>
+	<string>/tmp/homebrew.mxcl.wake-on-apache.stdout</string>
 </dict>
 </plist>
 
